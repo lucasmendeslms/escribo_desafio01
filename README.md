@@ -1,12 +1,12 @@
 # Desafio técnico 01
 
-Descrição:
+## Descrição:
 
 - Implemente uma função que receba um número inteiro positivo e retorne o somatório de todos os valores 
 inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado.
 
 
-### Projeto
+## Projeto
 
 Para facilitar os testes, foi desenvolvida uma interface gráfica de modo que fosse possível inserir números inteiros positivos para validar a função desenvolvida.
 
