@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 01</title>
+
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <h1>Calcular</h1>
+        <div class="containerSections">
+          <section id="inputSection">
+            <form action="" id="form">
+              <label for="input"> Informe um número </label>
+              <input 
+                type="number"
+                id="input"
+                name="input"
+                autocomplete="off"
+                placeholder="Digite um número..."
+                step="any"
+              />
+              <button  type="submit" id="send" disabled>Calcular</button>
+            </form>
+          </section>
+          <p id="errorMessage"> Por favor, informe um número inteiro e positivo </p>
+          <section id="resultSection">
+            <h2>Resultado</h2>
+            <span id="result">0</span>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="containerLogo">
+        <img class="logo" src="./assets/logo.png" alt="" />
+      </div>
+    </footer>
+
+    <script type="module" src="script/script.js"></script>
+  </body>
+</html>
