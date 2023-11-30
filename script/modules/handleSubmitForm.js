@@ -23,7 +23,7 @@ export default function handleSubmitForm() {
     button.setAttribute("disabled", true);
   };
 
-  if (button) {
+  if (form) {
     form.addEventListener("submit", submitForm);
   }
 }
